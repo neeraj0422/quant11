@@ -12,12 +12,14 @@ import { auth, fetchToken } from '../../firebase';
 // import GoogleButton from 'react-google-button';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import apiRequest from '../../api/api';
+//commit1
 
 const SignInForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors }
+    formState: { errors } 
+    
   } = useForm();
   const navigate = useNavigate();
 
