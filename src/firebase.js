@@ -3,17 +3,16 @@ import { getMessaging, getToken, onMessage } from 'firebase/messaging';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyByof9cRrvDFWKL3Bc90JMg8md8Vxzd2NU",
-  authDomain: "quant11.firebaseapp.com",
-  projectId: "quant11",
-  storageBucket: "quant11.appspot.com",
-  messagingSenderId: "4796970993",
-  appId: "1:4796970993:web:e6a10c9871483fbd60b650",
-  measurementId: "G-J4WEHK7464"
+  apiKey: 'AIzaSyByof9cRrvDFWKL3Bc90JMg8md8Vxzd2NU',
+  authDomain: 'quant11.firebaseapp.com',
+  projectId: 'quant11',
+  storageBucket: 'quant11.appspot.com',
+  messagingSenderId: '4796970993',
+  appId: '1:4796970993:web:e6a10c9871483fbd60b650',
+  measurementId: 'G-J4WEHK7464'
 };
 
 const vapidKey =
-  
   'BBTDiiFDXhL9TX6S2r_5qtxMXodzxt705RKU_CpM5SD-D_VYg63i8ttbtauEBsBZawZuKRtfQ1vaHwNXtVdaNto';
 const firebaseApp = initializeApp(firebaseConfig);
 const messaging = getMessaging(firebaseApp);

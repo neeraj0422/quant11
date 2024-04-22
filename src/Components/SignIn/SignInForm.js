@@ -18,8 +18,7 @@ const SignInForm = () => {
   const {
     register,
     handleSubmit,
-    formState: { errors } 
-    
+    formState: { errors }
   } = useForm();
   const navigate = useNavigate();
 
@@ -57,10 +56,7 @@ const SignInForm = () => {
         toast.error(`${responseData?.meta?.message || 'Unknown error'}`);
       }
     } catch (error) {
-      console.log(error)
-    
-    ;
-      
+      console.log(error);
     }
   };
 

@@ -4,8 +4,6 @@ import { PartiallyProtectedRoutes, ProtectedRoutes } from './ProtectedRoutes';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import SignUpFormExperience from './Components/SignUp/SignUpForm/SignUpFormExperience';
 
-
-
 const Dashboard = lazy(() => import('./Pages/Dashboard/Dashboard'));
 const SignUp = lazy(() => import('./Pages/SignUp/SignUp'));
 const SignIn = lazy(() => import('./Pages/SignIn/SignIn'));
