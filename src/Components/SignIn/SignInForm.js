@@ -66,7 +66,7 @@ const SignInForm = () => {
 
   const handleSignIn = async (data) => {
     try {
-      const response = await fetch(`http://45.55.203.19:3001/api/v1/login`, {
+      const response = await fetch(`https://45.55.203.19:3001/api/v1/login`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
